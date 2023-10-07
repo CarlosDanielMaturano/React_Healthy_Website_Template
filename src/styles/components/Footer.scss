@@ -1,0 +1,12 @@
+@import '../abstract/colors';
+@import '../abstract/fonts';
+
+.Footer {
+  background-color: $blue;
+  text-align: center;
+  padding: 2em;
+  a {
+    color: #fff;
+    font-size: 1.5em;
+  }
+}

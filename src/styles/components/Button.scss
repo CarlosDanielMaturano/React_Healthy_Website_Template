@@ -1,0 +1,25 @@
+@import '../abstract/colors';
+@import '../abstract/fonts';
+
+.Button {
+  max-width: fit-content;
+  font-size: $button-font-size;
+  color: #fff;
+  outline: none;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: $blue;
+  text-transform: uppercase;
+  font-weight: 700;
+
+  @media (min-width: 1280px) {
+    font-size: $button-font-size + 0.2em;
+  }
+
+  transition: 0.2s;
+  &:hover {
+    background-color: $darker-blue;
+    color: $white;
+  }
+}

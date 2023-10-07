@@ -1,0 +1,10 @@
+@import '../abstract/colors';
+@import '../abstract/fonts';
+
+.Title {
+  font-size: $default-title-size;
+  font-weight: 700;
+  @media (min-width: 1280px) {
+    font-size: $big-title-size;
+  }
+}

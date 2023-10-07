@@ -1,0 +1,12 @@
+@import '../abstract/fonts';
+
+.Input {
+  max-width: 500px;
+  width: 70vw;
+  font-size: 1em;
+  outline: none;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  font-family: $default-font;
+}
